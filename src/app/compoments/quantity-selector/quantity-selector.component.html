@@ -1,0 +1,12 @@
+<div class="input-group">
+  <div class="input-group-prepend">
+    <button class="btn btn-outline-primary js-btn-minus" type="button" (click)="removeFromCart()">-</button>
+  </div>
+  <span class="form-control text-center">
+   
+    {{ getQuantity() }}
+  </span>
+  <div class="input-group-append">
+    <button class="btn btn-outline-primary js-btn-plus" type="button" (click)="addToCart()">+</button>
+  </div>
+</div>
